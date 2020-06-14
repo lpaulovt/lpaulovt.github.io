@@ -1,0 +1,32 @@
+@import url("https://use.typekit.net/pem1sjg.css");
+
+:root {
+    --primary-color: #0D0D0D;
+    --secondary-color: #ffffff;
+    --tertiary-color: #8B7455;
+    --dark-gray: #6F6F72;
+    --light-gray: #F3F5F6;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: acumin-pro, sans-serif;
+    -webkit-font-smoothing: antialiased;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    width: 90%;
+    max-width: 1100px;
+    margin: 0 auto;
+}
