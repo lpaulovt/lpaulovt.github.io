@@ -1,0 +1,122 @@
+header {
+    width: 100%;
+}
+
+header .nav {
+    width: 100%;
+    height: 80px;
+    padding: 0 30px;
+
+    background: var(--black-color);
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 10;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header .nav .nav-logo {
+    color: var(--white-color);
+    font-size: 23px;
+    line-height: 27px;
+    font-weight: 700;
+}
+
+/*  NAV-ICON */
+
+header .nav .nav-icon {
+    width: 60px;
+    height: 60px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    cursor: pointer;
+
+}
+
+header .nav .nav-icon .nav-bar {
+    height: 2px;
+    width: 22px;
+
+    background: var(--white-color);
+
+    transition: all .25s ease-in-out;
+}
+
+header .nav .nav-icon .nav-bar:first-child {
+    transform: translateY(-5px);
+}
+
+header .nav .nav-icon .nav-bar:last-child {
+    transform: translateY(5px);
+}
+
+/* NAV-ICON ANIMATION */
+
+header .nav .nav-icon.active .nav-bar:first-child {
+    transform: translateY(1px) rotate(-45deg);
+}
+
+header .nav .nav-icon.active .nav-bar:last-child {
+    transform: translateY(-1px) rotate(45deg);
+}
+
+/* OVERLAY */
+
+header .nav-overlay {
+    width: 100vw;
+    height: 0;
+    background : var(--black-color);
+
+    position: fixed;
+    top: 0;
+    left: 0;
+
+    transition: all .75s ease-in-out;
+}
+
+/* MENU OVERLAY */
+
+header .nav-overlay .container {
+    width: 100%;
+    height: 100%;
+    padding: 0 120px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header .nav-overlay .container .nav-links {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+header .nav-overlay .container .nav-links a {
+    font-size: 4em;
+    font-weight: 700;
+    color: var(--white-color);
+}
+
+/* OVERLAY ANIMATION */
+
+header .nav-overlay .container {
+    opacity: 0;
+    transition-delay: .5s;
+}
+
+header .nav-overlay.active {
+    height: 100vh;
+}
+
+header .nav-overlay.active .container {
+    opacity: 1;
+}

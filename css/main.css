@@ -1,11 +1,11 @@
 @import url("https://use.typekit.net/pem1sjg.css");
 
 :root {
-    --primary-color: #0D0D0D;
-    --secondary-color: #ffffff;
-    --tertiary-color: #8B7455;
-    --dark-gray: #6F6F72;
-    --light-gray: #F3F5F6;
+    --black-color: #0D0D0D;
+    --white-color: #ffffff;
+    --golden-color: #8B7455;
+    --dark-gray-color: #6F6F72;
+    --light-gray-color: #F3F5F6;
 }
 
 
