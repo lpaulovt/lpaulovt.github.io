@@ -102,8 +102,52 @@ header .nav-overlay .container .nav-links {
 
 header .nav-overlay .container .nav-links a {
     font-size: 4em;
-    font-weight: 700;
+    line-height: 1.3em;
+    font-weight: 900;
     color: var(--white-color);
+}
+
+header .nav-overlay .container .nav-contact {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+header .nav-overlay .container .nav-contact .contact-image {
+    margin-bottom: 40px;
+}
+
+header .nav-overlay .container .nav-contact .contact-info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+header .nav-overlay .container .nav-contact .contact-info h3 {
+    font-size: .75em;
+    text-transform: uppercase;
+    color: var(--golden-color);
+
+    margin-bottom: 5px;
+}
+
+header .nav-overlay .container .nav-contact .contact-info a {
+    font-size: 1.25em;
+    line-height: 1.875em;
+    color: var(--white-color);
+    text-decoration: underline;
+}
+
+header .nav-overlay .container .nav-contact .contact-info a + a { 
+    margin-bottom: 20px;
+}
+
+header .nav-overlay .container .nav-contact .contact-info .socials {
+    margin-bottom: 40px;
+}
+
+header .nav-overlay .container .nav-contact .contact-info .socials a:nth-child(2){
+     margin: 0 15px; 
 }
 
 /* OVERLAY ANIMATION */

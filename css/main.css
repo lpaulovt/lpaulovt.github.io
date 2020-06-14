@@ -1,4 +1,4 @@
-@import url("https://use.typekit.net/pem1sjg.css");
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap');
 
 :root {
     --black-color: #0D0D0D;
@@ -17,7 +17,7 @@
 
 
 body {
-    font-family: acumin-pro, sans-serif;
+    font-family: 'Roboto', sans-serif;
     -webkit-font-smoothing: antialiased;
 }
 
@@ -29,4 +29,9 @@ a {
     width: 90%;
     max-width: 1100px;
     margin: 0 auto;
+}
+
+.credits {
+    font-size: .75em;
+    color: #F3F5F6;
 }
