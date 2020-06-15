@@ -63,7 +63,8 @@ main .s-featured .btn-scroll:hover img {
 main .s-about {
     margin: 40px 0;
     width:100%;
-    height: 600px;
+    height: 90vh;
+    min-height: 600px;
 }
 
 main .s-about .container {
@@ -120,4 +121,75 @@ main .s-about .container .about-image {
 
     display: flex;
     justify-content: flex-end;
+}
+
+main .s-work {
+    padding-top: 110px;
+    width: 100%;
+
+    background: var(--black-color);
+}
+
+main .s-work .container {
+    width: 100%;
+    height: 90vh;
+}
+
+main .s-work .container .work-title {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+
+main .s-work .container .work-title h2 {
+    font-size: 4em;
+    font-weight: bold;
+    color: var(--white-color);
+
+    margin-right: 40px;
+}
+
+main .s-work .container .work-title .work-btn {
+    height: 60px;
+    padding: 30px 40px 30px 40px;
+    border: 2px solid #f3f5f6;
+    border-radius: 30px;
+
+    display: flex;
+    align-items: center;
+
+    font-size: 15px;
+    color: var(--white-color);
+    transition: all .35s ease-in-out;
+}
+
+main .s-work .container .work-title .work-btn img {
+    padding-left: 25px;
+    transition: all .25s ease-in-out;
+}
+
+main .s-work .container .work-title .work-btn:hover {
+    color: var(--golden-color);
+    border-color: var(--golden-color);
+}
+
+main .s-work .container .work-title .work-btn:hover img {
+    transform: translateX(5px);
+    filter: invert(0.1);
+}
+
+main .s-work .container .work-cards {
+    height: 100%;
+    padding: 80px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+main .s-work .container .work-cards .card{
+    width: calc(50% - 20px);
+    height: 100%;
+    padding: 50px;
+
+    background: #f3f5f6;
 }
