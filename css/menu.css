@@ -105,6 +105,11 @@ header .nav-overlay .container .nav-links a {
     line-height: 1.3em;
     font-weight: 900;
     color: var(--white-color);
+
+    opacity: 0;
+    transform: translateX(-100px);
+        
+    transition: all .35s ease-in-out;
 }
 
 header .nav-overlay .container .nav-contact {
@@ -136,6 +141,12 @@ header .nav-overlay .container .nav-contact .contact-info a {
     line-height: 1.875em;
     color: var(--white-color);
     text-decoration: underline;
+
+    transition: all .25s ease-in-out;
+}
+
+header .nav-overlay .container .nav-contact .contact-info a:hover {
+    color: var(--dark-gray-color);
 }
 
 header .nav-overlay .container .nav-contact .contact-info a + a { 
@@ -146,15 +157,30 @@ header .nav-overlay .container .nav-contact .contact-info .socials {
     margin-bottom: 40px;
 }
 
+header .nav-overlay .container .nav-contact .contact-info .socials  a img  {
+    transition: all .05s ease-in-out;
+}
+
 header .nav-overlay .container .nav-contact .contact-info .socials a:nth-child(2){
      margin: 0 15px; 
 }
 
+header .nav-overlay .container .nav-contact .contact-info .socials a:hover img {
+    filter: invert(0.5);
+}
+
+
+.nav-contact .contact-image, .nav-contact .contact-info {
+    opacity: 0;
+    transform: translateX(200px);
+        
+    transition: all .35s ease-in-out;
+}
 /* OVERLAY ANIMATION */
 
 header .nav-overlay .container {
     opacity: 0;
-    transition-delay: .5s;
+    transition: all .25s ease-in-out;
 }
 
 header .nav-overlay.active {
@@ -163,4 +189,36 @@ header .nav-overlay.active {
 
 header .nav-overlay.active .container {
     opacity: 1;
+}
+
+header .nav-overlay.active .container .nav-links a{
+    opacity: 1;
+    transform: translateX(0);
+}
+
+header .nav-overlay.active .container .nav-links a:first-child {
+    transition-delay: .75s;
+}
+
+header .nav-overlay.active .container .nav-links a:nth-child(2) {
+    transition-delay: .80s;
+}
+
+header .nav-overlay.active .container .nav-links a:last-child {
+    transition-delay: .85s;
+}
+
+.nav-overlay.active .nav-contact .contact-image, .nav-overlay.active .nav-contact .contact-info {
+    opacity: 1;
+    transform: translateX(0px);
+
+}
+
+.nav-overlay.active .nav-contact .contact-image {
+    transition-delay: .75s;
+}
+
+.nav-overlay.active .nav-contact .contact-info {
+    transition-delay: .80s;
+ 
 }
