@@ -73,6 +73,7 @@ main .s-about .container {
     display: flex;
     align-items: center;
     justify-content: center;
+    
 }
 
 main .s-about .container .about-info {
