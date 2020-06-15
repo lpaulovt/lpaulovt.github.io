@@ -1,0 +1,122 @@
+main .s-featured {
+    position: relative;
+    margin-top: 80px;
+    width:100%;
+    height: 80vh;
+
+    background: var(--black-color);
+}
+
+main .s-featured .container {
+    height: 100%;
+}
+
+main .s-featured .container .text {
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+main .s-featured .container .text h1 {
+    font-size: 5em;
+    font-weight: 900;
+    color: var(--white-color);
+}
+
+main .s-featured .container .text h1:last-child {
+    margin-left: 20vw;
+}
+
+main .s-featured .btn-scroll {
+    width: 80px;
+    height: 80px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: absolute;
+    left: 50%;
+    bottom: -40px;
+    transform: translateX(-50%);
+
+    background: var(--golden-color);
+    cursor: pointer;
+
+    
+}
+
+main .s-featured .btn-scroll img {
+    transition: all .25s ease-in-out;
+}
+
+main .s-featured .btn-scroll:hover img {
+    transform: translateY(5px);
+    filter: invert(0.1);
+}
+
+/* SECTION ABOUT */
+
+main .s-about {
+    margin: 40px 0;
+    width:100%;
+    height: 600px;
+}
+
+main .s-about .container {
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+main .s-about .container .about-info {
+    flex: 1;
+}
+
+main .s-about .container .about-info h2 {
+    font-size: 4em;
+    font-weight: bold;
+    color: var(--black-color);
+
+    margin-bottom: 5px;
+
+}
+
+main .s-about .container .about-info p {
+    font-size: 1.25em;
+    line-height: 1.5em;;
+    font-weight: normal;
+    color: var(--dark-gray-color);
+
+    margin-bottom: 25px;    
+}
+
+main .s-about .container .about-info span{
+    color: var(--golden-color);
+}
+
+main .s-about .container .about-info p span {
+    font-weight: bold;
+}
+
+main .s-about .container .about-info .location {
+    display: flex;
+    align-items: center;
+}
+
+main .s-about .container .about-info .location span {
+    margin-left: 5px;
+}
+
+main .s-about .container .about-image {
+    flex: 1;
+
+    display: flex;
+    justify-content: flex-end;
+}
