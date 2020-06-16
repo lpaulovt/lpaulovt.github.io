@@ -208,6 +208,10 @@ main .s-work .container .work-cards .card{
     transition: all .25s ease-in-out;
 }
 
+main .s-work .container .work-cards .card a{
+    color: var(--black-color);
+}
+
 main .s-work .container .work-cards .card:hover {
     transform: translateY(-5px);
 }
