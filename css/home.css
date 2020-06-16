@@ -331,3 +331,14 @@ main .s-contact .container .contact-btn:hover img {
     transform: translateX(5px);
     filter: invert(0.1);
 }
+
+/* FOOTER */
+footer {
+    width: 100%;
+    background: var(--black-color);
+}
+
+footer .container {
+    padding: 35px 0;
+    text-align: center
+}

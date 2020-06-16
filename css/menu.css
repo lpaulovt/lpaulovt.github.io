@@ -114,6 +114,9 @@ header .nav-overlay .container .nav-links a {
     transition: all .35s ease-in-out;
 }
 
+header .nav-overlay .container .nav-links a.active {
+    color: var(--golden-color);
+}
 header .nav-overlay .container .nav-contact {
     display: flex;
     flex-direction: column;
