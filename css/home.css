@@ -27,7 +27,7 @@ main .s-featured .container .text h1 {
 }
 
 main .s-featured .container .text h1:last-child {
-    margin-left: 20vw;
+    margin-left: 20%;
 }
 
 main .s-featured .btn-scroll {
@@ -123,16 +123,25 @@ main .s-about .container .about-image {
     justify-content: flex-end;
 }
 
+main .s-about .container .about-image img {
+    width: 90%;
+}
+
+
+/* WORK SECTION */
+
 main .s-work {
-    padding-top: 110px;
     width: 100%;
+    min-height: 760px;
 
     background: var(--black-color);
 }
 
 main .s-work .container {
     width: 100%;
-    height: 90vh;
+    height: 100%;
+    padding-top: 110px;
+
 }
 
 main .s-work .container .work-title {
@@ -179,17 +188,85 @@ main .s-work .container .work-title .work-btn:hover img {
 }
 
 main .s-work .container .work-cards {
-    height: 100%;
-    padding: 80px 0;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+    margin: 80px 0;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 40px;
 }
 
 main .s-work .container .work-cards .card{
-    width: calc(50% - 20px);
-    height: 100%;
-    padding: 50px;
+    height: 400px;
+    min-width:300px;
+
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
 
     background: #f3f5f6;
+    box-shadow: 0px 3px 10px 1px rgba(34, 33, 33, 0.349);
+
+    transition: all .25s ease-in-out;
+}
+
+main .s-work .container .work-cards .card:hover {
+    transform: translateY(-5px);
+}
+
+main .s-work .container .work-cards .card .card-info {
+    z-index: 1; 
+    position: relative;
+    width: 70%;
+    height: 100%;
+}
+
+main .s-work .container .work-cards .card span {
+    position: absolute;
+    top: 50px;
+    left: 50px;
+
+    font-size: .75em;
+    letter-spacing: 1px;
+    color: var(--dark-gray-color);
+    text-transform: uppercase;
+}
+
+main .s-work .container .work-cards .card .card-title {
+    position: absolute;
+    top: 50%;
+    transform: translate(0, -50%);
+    left: 50px;
+
+    font-size: 1.375em;
+    font-weight: bold;
+    color: var(--dark-color);
+}
+
+main .s-work .container .work-cards .card .card-title h3:last-child {
+    color: var(--golden-color);
+}
+
+main .s-work .container .work-cards .card .arrow {
+    position: absolute;
+    bottom: 50px;
+    left: 50px;
+    transition: all .25s ease-in-out;
+}
+
+main .s-work .container .work-cards .card:hover .arrow {
+    transform: rotate(-45deg);
+}
+
+main .s-work .container .work-cards .card .case {
+    position: absolute;
+    top: 50%;
+    transform: translate(50%, -50%);
+    right: -5%;
+
+    width: 70%;
+    object-fit: contain;
+}
+
+main .s-work .container .work-cards .card #ecoleta {
+    right: 20%;
+    width: 80%;
 }

@@ -30,7 +30,7 @@ a {
 }
 
 .container {
-    width: 80%;
+    width: 80% !important;
     max-width: 1100px;
     margin: 0 auto;
 }
