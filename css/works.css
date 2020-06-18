@@ -1,0 +1,180 @@
+.s-work {
+    margin-top: 80px;
+    width: 100%;
+    background: var(--black-color);
+}
+
+.s-work .container {
+    width: 100%;
+    padding-top: 15vh;
+} 
+
+.s-work .container .work-info {
+    display: flex;
+    flex-direction: column;
+}
+
+.s-work .container .work-info h3 {
+    font-size: .75em;
+    color: var(--dark-gray-color);
+    text-transform: uppercase;
+    font-weight: normal;
+
+    margin-bottom: 5px;
+}
+
+.s-work .container .work-info h2 {
+    font-size: 5em;
+    color: var(--white-color);
+    font-weight: bold;
+
+    margin-bottom: 5px;
+}
+
+.s-work .container .work-info , .s-work .container .work-info .work-btn {
+    font-size: 1em;
+    color: var(--dark-gray-color);
+}
+
+.s-work .container .work-info .work-btn {
+    margin-top: 5px;
+    color: var(--golden-color);
+    text-decoration: underline;
+}
+
+/* GRID */
+
+.s-work .container .work-cards .card.insure {
+    grid-area: insure;
+}
+
+.s-work .container .work-cards .card.ecoleta {
+    grid-area: ecoleta;
+}
+
+.s-work .container .work-cards .card.portfolio {
+    grid-area: portfolio;
+}
+
+.s-work .container .work-cards {
+    width: 100%;
+    padding: 5vh 0;
+    display: grid;
+    grid-gap: 40px;
+    grid-template-areas: 
+    "insure portfolio"
+    "ecoleta portfolio"
+    ;
+}
+
+/* CARD */
+
+.s-work .container .work-cards .card{
+    min-width:300px;
+
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+
+    background: #f3f5f6;
+    box-shadow: 0px 3px 10px 1px rgba(34, 33, 33, 0.349);
+
+    transition: all .25s ease-in-out;
+}
+
+.s-work .container .work-cards .card:hover {
+    transform: translateY(-5px);
+}
+
+.s-work .container .work-cards .card a{
+    color: var(--black-color);
+}
+
+.s-work .container .work-cards .card .card-info {
+    z-index: 1; 
+    position: relative;
+    width: 70%;
+    height: 100%;
+}
+
+.s-work .container .work-cards .card .card-title h3:last-child {
+    color: var(--golden-color);
+}
+
+.s-work .container .work-cards .card span {
+    position: absolute;
+    top: 50px;
+    left: 50px;
+
+    font-size: .75em;
+    letter-spacing: 1px;
+    color: var(--dark-gray-color);
+    text-transform: uppercase;
+}
+
+.s-work .container .work-cards .card .arrow {
+    position: absolute;
+    bottom: 50px;
+    left: 50px;
+    transition: all .25s ease-in-out;
+}
+
+.s-work .container .work-cards .card:hover .arrow {
+    transform: rotate(-45deg);
+}
+
+/* CARD SMALL */
+
+.s-work .container .work-cards .card.card-small {
+    height: 400px;
+}
+
+.s-work .container .work-cards .card.card-small .card-title {
+    position: absolute;
+    top: 50%;
+    transform: translate(0, -50%);
+    left: 50px;
+
+    font-size: 1.375em;
+    font-weight: bold;
+}
+
+.s-work .container .work-cards .card.card-small .case {
+    position: absolute;
+    top: 50%;
+    transform: translate(50%, -50%);
+    right: -5%;
+
+    width: 70%;
+    object-fit: contain;
+}
+
+main .s-work .container .work-cards .card.card-small #ecoleta {
+    right: 20%;
+    width: 80%;
+}
+
+/* BIG CARD */
+
+.s-work .container .work-cards .card.card-big {
+    height: 840px;
+}
+
+.s-work .container .work-cards .card.card-big .card-title {
+    position: absolute;
+    bottom: 20%;
+    left: 50px;
+
+    font-size: 1.375em;
+    font-weight: bold;
+}
+
+main .s-work .container .work-cards .card.card-big .case {
+    position: absolute;
+    top: 50%;
+    left: -50%;
+    transform: translate(50%, -50%);
+
+    width: 100%;
+    object-fit: contain;
+}
