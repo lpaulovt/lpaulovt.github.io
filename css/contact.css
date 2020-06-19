@@ -1,5 +1,10 @@
+body {
+    background: url('../img/contact-image.jpg') no-repeat;
+    background-size: cover;
+    background-position: 10vw 0;
+}
 .contact {
-    width: 100%;
+    width: 60%;
     height: 100vh;
 
     background: var(--black-color);
@@ -15,6 +20,7 @@
 .contact .container .contact-info {
     display: flex;
     flex-direction: column;
+    flex: 1;
 }
 
 .contact .container .contact-info h2 {
@@ -54,5 +60,5 @@
 }
 
 .contact .container .contact-info .socials {
-    margin-bottom: 5px;
+    margin-bottom: 25px;
 }
