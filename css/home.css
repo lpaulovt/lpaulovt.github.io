@@ -91,9 +91,9 @@ main .s-about .container .about-info h2 {
 }
 
 main .s-about .container .about-info p {
-    font-size: 1.25em;
-    line-height: 1.5em;;
-    font-weight: normal;
+    font-size: 1em;
+    line-height: 1.25em;
+    font-weight: 500;
     color: var(--dark-gray-color);
 
     margin-bottom: 25px;    
@@ -114,6 +114,7 @@ main .s-about .container .about-info .location {
 
 main .s-about .container .about-info .location span {
     margin-left: 5px;
+    font-weight: normal;
 }
 
 main .s-about .container .about-image {

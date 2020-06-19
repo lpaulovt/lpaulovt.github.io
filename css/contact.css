@@ -1,0 +1,58 @@
+.contact {
+    width: 100%;
+    height: 100vh;
+
+    background: var(--black-color);
+}
+
+.contact .container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.contact .container .contact-info {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact .container .contact-info h2 {
+    font-size: 5em;
+    color: var(--white-color);
+    font-weight: bold;
+
+    margin-bottom: 5px;
+}
+
+.contact .container .contact-info h3 {
+    font-size: 1.5em;
+    font-weight: 500;
+    color: var(--golden-color);
+
+    margin-bottom: 25px;
+}
+
+.contact .container .contact-info a {
+    font-size: 1.25em;
+    line-height: 1.875em;
+    color: var(--white-color);
+    text-decoration: underline;
+    transition: all .25s ease-in-out;
+}
+
+.contact .container .contact-info a + a {
+    margin-bottom: 25px;
+}
+
+.contact .container .contact-info a:hover {
+    color: var(--dark-gray-color);
+}
+
+.contact .container .contact-info .socials a:nth-child(2){
+    margin: 0 15px; 
+}
+
+.contact .container .contact-info .socials {
+    margin-bottom: 5px;
+}
