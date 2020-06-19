@@ -1,7 +1,7 @@
 body {
     background: url('../img/contact-image.jpg') no-repeat;
-    background-size: cover;
-    background-position: 10vw 0;
+    background-size: contain;
+    background-position: 36vw 4vh;
 }
 .contact {
     width: 60%;

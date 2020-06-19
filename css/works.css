@@ -14,15 +14,6 @@
     flex-direction: column;
 }
 
-.s-work .container .work-info h3 {
-    font-size: .75em;
-    color: var(--dark-gray-color);
-    text-transform: uppercase;
-    font-weight: normal;
-
-    margin-bottom: 5px;
-}
-
 .s-work .container .work-info h2 {
     font-size: 5em;
     color: var(--white-color);
