@@ -77,6 +77,41 @@
     .s-contact .container h2 {
         font-size: 2em !important;
     }
+
+
+    /* --- WORK PAGE --- */ 
+
+    .work .container .work-info h2 {
+        font-size: 2em !important;
+    }
+
+    .work .container .work-cards {
+        grid-template-areas: 
+        "portfolio"
+        "insure"
+        "ecoleta"
+        ;
+    }
+
+    .work .container .work-cards .card {
+        height: 250px !important;
+    }
+
+    .work .container .work-cards .card.card-big {
+        height: 400px;
+    }
+
+    .work .container .work-cards .card.card-big .card-title {
+        top: 50% !important;
+        bottom: unset !important;
+        transform: translateY(-50%) !important;
+    }
+
+    .work .container .work-cards .card.card-big .case {
+        right: 20% !important;
+        left: unset !important;
+        width: 80% !important;
+    }
 }
 
 @media (max-width: 550px) {
@@ -114,6 +149,21 @@
         bottom: 30px !important;
     }
 
+    /* --- WORK PAGE --- */
+
+    .work .container .work-cards .card span {
+        top: 30px !important;
+        left: 30px !important;
+    }
+
+    .work .container .work-cards .card .card-title {
+        left: 30px !important;
+    }
+
+    .work .container .work-cards .card .arrow {
+        left: 30px !important;
+        bottom: 30px !important;
+    }
     
 }
 
@@ -133,5 +183,10 @@
 @media (max-width: 370px) {
     .s-work .container .work-cards {
         grid-template-columns: repeat(auto-fit, minmax(250px, auto)) !important;
+    }
+
+    /* --- WORK PAGE --- */ 
+    .work .container .work-cards .card{
+        min-width: 250px !important;
     }
 }
