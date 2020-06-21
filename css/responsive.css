@@ -1,0 +1,137 @@
+@media (max-width: 900px) {
+    /* MENU */
+    .nav-overlay .container .nav-contact .contact-image {
+        display: none;
+    }
+
+    .nav-contact .contact-info h3, .nav-contact .contact-info a, .nav-contact .contact-info span {
+        display: none;
+    }
+
+    .nav-contact .contact-info .socials{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+        margin-bottom: 0px !important;
+    }
+
+    .nav-contact .contact-info .socials a {
+        display: inherit;
+        margin: 15px 0;
+    }
+    /* --- */
+}
+
+@media (max-width: 799px) {
+    /* MENU */
+    .nav-overlay .container {
+        padding: 0 !important;
+    }
+
+    /* s-featured */
+    .s-featured .container  .text h1 {
+        font-size: 3em !important;
+    }
+
+    /* s-about */
+
+    .s-about .container {
+        flex-direction: column-reverse;
+    }
+
+    .s-about .container .about-image, .s-about .container .about-info {
+        width: 100% !important;
+        flex:0 !important;
+    }
+
+    .s-about .container .about-image img {
+        width: 100% !important;
+        margin-bottom: 40px !important;
+    }
+
+    .s-about .container .about-info h2 {
+        font-size: 2em !important;
+    }
+
+    /* s-work */
+
+    .s-work {
+        min-height: 880px !important;
+    }
+
+    .s-work .container .work-title h2 {
+        font-size: 2em !important;
+    }
+
+    .s-work .container .work-cards .card {
+        height: 250px !important;
+    }
+
+    .s-work .container .work-cards .card .case {
+        height: 100%;
+    }
+
+    /* s-contact */
+    .s-contact .container h2 {
+        font-size: 2em !important;
+    }
+}
+
+@media (max-width: 550px) {
+    /*  menu-overlay */
+
+    .nav-overlay .container .nav-links a {
+        font-size: 2em !important;
+    }
+
+    /* s-work */
+    .s-work .container .work-title {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .s-work .container .work-title h2 {
+        margin: 0 0 5px 0 !important;
+    }
+
+    .s-work {
+        min-height: 920px !important;
+    }
+
+    .s-work .container .work-cards .card span {
+        top: 30px !important;
+        left: 30px !important;
+    }
+
+    .s-work .container .work-cards .card .card-title {
+        left: 30px !important;
+    }
+
+    .s-work .container .work-cards .card .arrow {
+        left: 30px !important;
+        bottom: 30px !important;
+    }
+
+    
+}
+
+@media (max-width: 450px) {
+    .s-featured .container .text {
+        justify-content: space-between !important;
+    }
+    .s-featured .container .text h1 {
+        font-size: 2em !important;
+    }
+
+    .s-featured .container .text h1:last-child {
+        margin-left: 0% !important;
+    }
+}
+
+@media (max-width: 370px) {
+    .s-work .container .work-cards {
+        grid-template-columns: repeat(auto-fit, minmax(250px, auto)) !important;
+    }
+}
