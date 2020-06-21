@@ -112,6 +112,20 @@
         left: unset !important;
         width: 80% !important;
     }
+
+    /* --- CONTACT PAGE --- */
+
+    .contact .container .contact-info h2 {
+        font-size: 3em !important;
+    }
+
+    .contact .container .contact-info h3 {
+        font-size: 1.25em !important;
+    }
+
+    .contact .container .contact-info a {
+        font-size: 1em !important;
+    }
 }
 
 @media (max-width: 550px) {
@@ -177,6 +191,25 @@
 
     .s-featured .container .text h1:last-child {
         margin-left: 0% !important;
+    }
+}
+
+@media (max-width: 450px) {
+    /* --- CONTACT PAGE --- */
+    #contact {
+        flex-direction: column;
+    }
+
+    .contact {
+        height: 80vh;
+
+    }
+
+    .contact-image  {
+        height: 20vh!important;
+        background-position-x: unset !important;
+        background-position-y: -4vh !important;
+        flex: unset !important;
     }
 }
 

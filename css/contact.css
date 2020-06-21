@@ -1,13 +1,21 @@
-body {
-    background: url('../img/contact-image.jpg') no-repeat;
-    background-size: contain;
-    background-position: 36vw 4vh;
+#contact {
+    display: flex;
 }
+
 .contact {
-    width: 60%;
+    flex: 1.5;
     height: 100vh;
 
     background: var(--black-color);
+}
+
+.contact-image {
+    height: 100vh;
+    flex: 1;
+    background: url('../img/contact-image.jpg') no-repeat;
+    background-size: cover;
+    background-position: 75% 4vh;
+    
 }
 
 .contact .container {
