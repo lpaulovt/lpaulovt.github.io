@@ -1,6 +1,12 @@
 
-<img alt="Ecoleta Screenshot" src=".github/portfolio.png">
-
+<img alt="Portfolio wallpaper" src=".github/portfolio.png">
+<br>
+<p align="center">
+  <a href="https://lpaulovt.github.io/" target="_blank">
+    <img alt="Portfolio" src=".github/portfolio-btn.png">
+  </a>
+</p>
+<br>
 <p align="center">
   <img alt="GitHub top language" src="https://img.shields.io/github/languages/top/lpaulovt/lpaulovt.github.io.svg">
   
@@ -37,16 +43,13 @@ To clone and run this application, you'll need [Git](https://git-scm.com) and [N
 
 ```bash
 # Clone this repository
-$ git clone https://github.com/lpaulovt/ecoleta-nlw-rocketseat
+$ git clone https://github.com/lpaulovt/lpaulovt.github.io
 
 # Go into the repository
-$ cd ecoleta-nlw-rocketseat
+$ cd lpaulovt.github.io
 
-# Install dependencies
-$ npm i
-
-# Run the app
-$ npm start
+# Run the website
+$ open in your browser
 ```
 ---
 
