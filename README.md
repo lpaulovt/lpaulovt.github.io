@@ -1,6 +1,5 @@
 
 <img alt="Portfolio wallpaper" src=".github/portfolio.png">
-<br>
 <p align="center">
   <a href="https://lpaulovt.github.io/" target="_blank">
     <img alt="Portfolio" src=".github/portfolio-btn.png">
