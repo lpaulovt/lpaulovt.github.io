@@ -2,7 +2,7 @@
 <img alt="Portfolio wallpaper" src=".github/portfolio.png">
 <p align="center">
   <a href="https://lpaulovt.github.io/" target="_blank">
-    <img alt="Portfolio" src=".github/portfolio-btn.png" width="20%">
+    <img alt="Portfolio" src=".github/portfolio-btn.png">
   </a>
 </p>
 <br>
