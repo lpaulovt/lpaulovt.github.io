@@ -2,7 +2,7 @@
 <img alt="Portfolio wallpaper" src=".github/portfolio.png">
 <p align="center">
   <a href="https://lpaulovt.github.io/" target="_blank">
-    <img alt="Portfolio" src=".github/portfolio-btn.png">
+    <img alt="Portfolio" src=".github/portfolio-btn.png" width="20%">
   </a>
 </p>
 <br>
@@ -38,7 +38,7 @@ This project was developed with the following technologies:
 
 ## :information_source: How To Use
 
-To clone and run this application, you'll need [Git](https://git-scm.com) and [Node.js v10.16][nodejs] or higher. From your command line:
+To clone and run this application, you'll need [Git](https://git-scm.com). From your command line:
 
 ```bash
 # Clone this repository
