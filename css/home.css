@@ -1,283 +1,276 @@
 main .s-featured {
-    position: relative;
-    margin-top: 80px;
-    width:100%;
-    height: 80vh;
+  position: relative;
+  margin-top: 80px;
+  width: 100%;
+  height: 80vh;
 
-    background: var(--black-color);
+  background: var(--black-color);
 }
 
 main .s-featured .container {
-    height: 100%;
+  height: 100%;
 }
 
 main .s-featured .container .text {
-    width: 100%;
-    height: 100%;
+  width: 100%;
+  height: 100%;
 
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
 }
 
 main .s-featured .container .text h1 {
-    font-size: 5em;
-    font-weight: 900;
-    color: var(--white-color);
+  font-size: 5em;
+  font-weight: 900;
+  color: var(--white-color);
 }
 
 main .s-featured .container .text h1:last-child {
-    margin-left: 15%;
+  margin-left: 15%;
 }
 
 main .s-featured .btn-scroll {
-    width: 80px;
-    height: 80px;
+  width: 80px;
+  height: 80px;
 
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 
-    position: absolute;
-    left: 50%;
-    bottom: -40px;
-    transform: translateX(-50%);
+  position: absolute;
+  left: 50%;
+  bottom: -40px;
+  transform: translateX(-50%);
 
-    background: var(--golden-color);
-    cursor: pointer;
-
-    
+  background: var(--golden-color);
+  cursor: pointer;
 }
 
 main .s-featured .btn-scroll img {
-    transition: all .25s ease-in-out;
+  transition: all 0.25s ease-in-out;
 }
 
 main .s-featured .btn-scroll:hover img {
-    transform: translateY(5px);
-    filter: invert(0.1);
+  transform: translateY(5px);
+  filter: invert(0.1);
 }
 
 /* SECTION ABOUT */
 
 main .s-about {
-    margin: 40px 0;
-    width:100%;
-    height: 90vh;
-    min-height: 750px;
+  margin: 40px 0;
+  width: 100%;
+  height: 90vh;
+  min-height: 750px;
 }
 
 main .s-about .container {
-    width: 100%;
-    height: 100%;
+  width: 100%;
+  height: 100%;
 
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 main .s-about .container .about-info {
-    flex: 1;
+  flex: 1;
 }
 
 main .s-about .container .about-info h2 {
-    font-size: 4em;
-    font-weight: bold;
-    color: var(--black-color);
+  font-size: 4em;
+  font-weight: bold;
+  color: var(--black-color);
 
-    margin-bottom: 10px;
-
+  margin-bottom: 10px;
 }
 
 main .s-about .container .about-info p {
-    font-size: 1em;
-    line-height: 1.25em;
-    font-weight: 500;
-    color: var(--dark-gray-color);
+  font-size: 1em;
+  line-height: 1.25em;
+  font-weight: 500;
+  color: var(--dark-gray-color);
 
-    margin-bottom: 25px;    
+  margin-bottom: 25px;
 }
 
-main .s-about .container .about-info span{
-    color: var(--golden-color);
+main .s-about .container .about-info span {
+  color: var(--golden-color);
 }
 
 main .s-about .container .about-info p span {
-    font-weight: bold;
+  font-weight: bold;
 }
 
 main .s-about .container .about-info .location {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
 }
 
 main .s-about .container .about-info .location span {
-    margin-left: 5px;
-    font-weight: normal;
+  margin-left: 5px;
+  font-weight: normal;
 }
 
 main .s-about .container .about-image {
-    flex: 1;
+  flex: 1;
 
-    display: flex;
-    justify-content: flex-end;
+  display: flex;
+  justify-content: flex-end;
 }
 
 main .s-about .container .about-image img {
-    width: 90%;
+  width: 90%;
 }
-
 
 /* WORK SECTION */
 
 main .s-work {
-    width: 100%;
-    height: 100vh;
-    min-height: 760px;
+  width: 100%;
+  height: 100vh;
+  min-height: 760px;
 
-
-    background: var(--black-color);
+  background: var(--black-color);
 }
 
 main .s-work .container {
-    width: 100%;
-    height: 100%;
-    padding-top: 110px;
+  width: 100%;
+  height: 100%;
+  padding-top: 110px;
 
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 main .s-work .container .work-title {
-    display: flex;
-    align-items: center;
-    justify-content: start;
+  display: flex;
+  align-items: center;
+  justify-content: start;
 }
 
 main .s-work .container .work-title h2 {
-    font-size: 4em;
-    font-weight: bold;
-    color: var(--white-color);
+  font-size: 4em;
+  font-weight: bold;
+  color: var(--white-color);
 
-    margin-right: 40px;
+  margin-right: 40px;
 }
 
 main .s-work .container .work-title .work-btn {
-    height: 60px;
-    padding: 30px 40px 30px 40px;
-    border: 2px solid #f3f5f6;
-    border-radius: 30px;
+  height: 60px;
+  padding: 30px 40px 30px 40px;
+  border: 2px solid #f3f5f6;
+  border-radius: 30px;
 
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
 
-    font-size: 15px;
-    color: var(--white-color);
-    transition: all .35s ease-in-out;
+  font-size: 15px;
+  color: var(--white-color);
+  transition: all 0.35s ease-in-out;
 }
 
 main .s-work .container .work-title .work-btn img {
-    padding-left: 25px;
-    transition: all .25s ease-in-out;
+  padding-left: 25px;
+  transition: all 0.25s ease-in-out;
 }
 
 main .s-work .container .work-title .work-btn:hover {
-    color: var(--golden-color);
-    border-color: var(--golden-color);
+  color: var(--golden-color);
+  border-color: var(--golden-color);
 }
 
 main .s-work .container .work-title .work-btn:hover img {
-    transform: translateX(5px);
-    filter: invert(0.1);
+  transform: translateX(5px);
+  filter: invert(0.1);
 }
 
 main .s-work .container .work-cards {
-    margin: 80px 0;
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, auto));
-    gap: 40px;
+  margin: 80px 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, auto));
+  gap: 40px;
 }
 
-main .s-work .container .work-cards .card{
-    height: 400px;
-    /* min-width:300px; */
+main .s-work .container .work-cards .card {
+  height: 400px;
+  /* min-width:300px; */
 
-    position: relative;
-    overflow: hidden;
-    cursor: pointer;
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
 
-    background: #f3f5f6;
-    box-shadow: 0px 3px 10px 1px rgba(34, 33, 33, 0.349);
+  background: #f3f5f6;
+  box-shadow: 0px 3px 10px 1px rgba(34, 33, 33, 0.349);
 
-    transition: all .25s ease-in-out;
+  transition: all 0.25s ease-in-out;
 }
 
-main .s-work .container .work-cards .card a{
-    color: var(--black-color);
+main .s-work .container .work-cards .card a {
+  color: var(--black-color);
 }
 
 main .s-work .container .work-cards .card:hover {
-    transform: translateY(-5px);
+  transform: translateY(-5px);
 }
 
 main .s-work .container .work-cards .card .card-info {
-    z-index: 1; 
-    position: relative;
-    width: 70%;
-    height: 100%;
+  z-index: 1;
+  position: relative;
+  width: 70%;
+  height: 100%;
 }
 
 main .s-work .container .work-cards .card span {
-    position: absolute;
-    top: 50px;
-    left: 50px;
+  position: absolute;
+  top: 50px;
+  left: 50px;
 
-    font-size: .75em;
-    letter-spacing: 1px;
-    color: var(--dark-gray-color);
-    text-transform: uppercase;
+  font-size: 0.75em;
+  letter-spacing: 1px;
+  color: var(--dark-gray-color);
+  text-transform: uppercase;
 }
 
 main .s-work .container .work-cards .card .card-title {
-    position: absolute;
-    top: 50%;
-    transform: translate(0, -50%);
-    left: 50px;
+  position: absolute;
+  top: 50%;
+  transform: translate(0, -50%);
+  left: 50px;
 
-    font-size: 1.375em;
-    font-weight: bold;
-    color: var(--dark-color);
+  font-size: 1.375em;
+  font-weight: bold;
+  color: var(--dark-color);
 }
 
 main .s-work .container .work-cards .card .card-title h3:last-child {
-    color: var(--golden-color);
+  color: var(--golden-color);
 }
 
 main .s-work .container .work-cards .card .arrow {
-    position: absolute;
-    bottom: 50px;
-    left: 50px;
-    transition: all .25s ease-in-out;
+  position: absolute;
+  bottom: 50px;
+  left: 50px;
+  transition: all 0.25s ease-in-out;
 }
 
 main .s-work .container .work-cards .card:hover .arrow {
-    transform: rotate(-45deg);
+  transform: rotate(-45deg);
 }
 
 main .s-work .container .work-cards .card .case {
-    position: absolute;
-    top: 50%;
-    transform: translate(50%, -50%);
-    right: -5%;
+  position: absolute;
+  top: 50%;
+  transform: translate(50%, -50%);
+  right: -5%;
 
-    width: 70%;
-    object-fit: contain;
+  width: 70%;
+  object-fit: contain;
 }
 
 main .s-work .container .work-cards .card #ecoleta {
-    right: 20%;
-    width: 80%;
+  right: 20%;
+  width: 80%;
 }
